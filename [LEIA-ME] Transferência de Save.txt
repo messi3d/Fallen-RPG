@@ -22,3 +22,4 @@ Android PokeFallen ao lado do executável "Game.exe".
 5. Pronto! A partir do próximo carregamento, será mais rápida a inicialização.
 
 Tenha um bom jogo! 
+Beijos do Maker! <3
