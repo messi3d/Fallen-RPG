@@ -1,0 +1,24 @@
+- Se você é um novato e irá iniciar uma nova jornada. Inicie seu jogo e pule esta mensagem.
+
+- Como transferir Saves Antigos para a v5.0
+
+- PC - COMPUTADOR: 
+
+1. Faça autenticação na versão v4.9.9.9.8.6 - Disponível na aba Download-Game do discord.
+2. Feito isso, copie o arquivo Game1 da pasta Save Game do seu jogo e transfira para a pasta Save Game do PC. (Ela abrirá um novo diretório).
+3. Renomeie Game1 para Game. O jogo reconhecerá apenas o arquivo "Game.rxdata".
+4. Execute o jogo e aguarde a conversão do arquivo salvo, deve levar alguns segundos. 
+5. Pronto! A partir do próximo carregamento, será mais rápida a inicialização.
+
+Tenha um bom jogo! 
+
+- Android - CELULAR
+
+1. Faça autenticação na versão v4.9.9.9.8.6 - Disponível na aba Download-Game do discord.
+2. Feito isso, copie o arquivo Game1 da pasta Save Game do seu jogo e transfira para a pasta principal do seu
+Android PokeFallen ao lado do executável "Game.exe".
+3. Renomeie Game1 para Game. O jogo reconhecerá apenas o arquivo "Game.rxdata".
+4. Execute o jogo e aguarde a conversão do arquivo salvo, deve levar alguns segundos. 
+5. Pronto! A partir do próximo carregamento, será mais rápida a inicialização.
+
+Tenha um bom jogo! 

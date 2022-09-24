@@ -1,0 +1,122 @@
+LOG VERSÃO 5.0 
+
+[Sistema de Performance]
+- Agora você terá um novo sistema de treinamento para seu Pokémon, a cada missão concluida um valor será adicionado aos status gerais do seu Pokémon. Podendo deixar ele ainda mais forte! 
+- Para visualizar as missões, basta navegar através do Resumo do seu Pokémon.
+- 11 Categorias de missões adicionadas.
+- Até 8 níveis de Performance Disponíveis.
+
+1. Ofensivo 
+- Dano/Nocautes
+[Pokes] = Pidgey, Pidgeotto, Pidgeot, Ekans, Arbok, Charmander, Charmeleon, Charizard
+2. Guerreiro
+- Dano/Nocautes por movimentos não efetivos.
+[Pokes] = Weedle, Kakuna, Beedril, Pikachu, Raichu, Chimchar, Monferno, Infernape
+3. Ofensivo Físico 
+- Dano Físico/Nocautes.
+[Pokes] = Mankey, Primeape, Elekid, Electabuzz, Electivire, Ratatta, Raticate, Spearow, Fearow, Sandshrew, Sandslash
+4. Usuário de Cura Individual 
+- Dano recebido/HP restaurado por movimentos de cura individuais.
+[Pokes] = Happiny, Chansey, Blissey
+5. Usuário de Cura 
+- Dano recebido/Numero de vezes que usou move de cura.
+[Pokes] = Cleffa, Clefairy, Clefable
+6. Especial Efetivo 
+- Dano especial/Nocaute por movimentos efetivos
+[Pokes] = Caterpie, Metapod, Butterfree, Ralts, Kirlia, Gardevoir, Vulpix, Ninetales, Venonat, Venomoth
+7. Especial Ofensivo 
+- Dano especial/Nocautes
+[Pokes] = NidoranF, Nidorina, Nidoqueen,Abra, Kadabra, Alakazam, Magby, Magmar, Magmortar, Bulbasaur, Ivysaur, Venusaur
+8. Tanque
+- Hitkill/Moves de Status
+[Pokes] =  Igglybuff, Jiglypuff, Wigglytuff. 
+9. Orgulhoso
+- Hitkill/Nocaute em desvatangem
+[Pokes] = Machop, Machoke, Machamp
+10. Sacedorte
+- HP Restaurado/Moves de Status
+[Pokes] = Seel, Dewgong
+11. Tático
+- Dano/Moves de Status
+[Pokes] = Ponyta, Rapidash
+
+[Novidades]
+- Liberada continuação a história em Kanto! 
+- Fim do Plot da Equipe Rocket em Kanto. 
+- Novo Ginásio e Level Cap desbloqueado!
+- Adicionada nova Coccon Stone. Stone capaz de evoluir Shelmet para Accelgor e Karrablast para Escavalier. Pokes que antes só evoluiam por troca. 
+- Adicionado evolução de Pumpkaboo para Gourgeits pela Darkness Stone e Phanthump para Trevenant também, ambos antes só evoluiam por troca.
+- A função Fly padrão da franquia será acessível por compatibilidade! Basta ser compatível e ao usar o menu rápido a opção estará disponível, assim como teleport.
+- Nova animação de evolução e ovo chocando adicionada! 
+
+[Torre de Batalha]
+- Hisuian Braviary na vitoria 12.
+- Rework nos campos de batalha!
+- Novo campo de batalha dentro da batalha.
+- Skin para o Mimikyu entrará na Torre deste mês! Mega Ring continua para aqueles que não conseguiram, mas foi removido do Shop Da Torre no Menu.
+- Porygon, é sua vez! Galera, batalhem por este milagroso, a Pokedex de Kanto tá perto 
+de terminar!
+- MintBox estará disponível em mais um Round acima. Será mais uma chance de tira-la.
+[Balanceamento]
+- Blaine recebeu 4 Shinys na equipe.
+- Erika recebeu 3 Shinys na equipe.
+- Lt. Surge ganhou o Shiny no Electivire! 
+- incrível Scyther migrou para a Metal Coat, seu catch será exclusivo da Quest.
+- Sabrina teve seu cap level de 35 para o 30. 
+- +Treinadores adicionados a Rota 5.
+- + Pokémons na Quest Water Stone. 
+- Nivelado nível de pokes de treinadores da Rota 9.
+- Aves Lendárias tiveram status base de sua fraqueza Defesa aumentados. Sua super defesa ainda continuará maior.
+- Boss Reformulados.
+- Flintch, Attract, Confusion e outros efeitos não funcionarão mais em Boss poderosos! Efeitos negativos não funcionarão em Lendários.
+- Efeitos negativos funcionarão em Horder Leaders.
+-Moves HKO, PerishSong, DestinyBond, LeenchSeed nao funcionará em nenhum tipo de Boss.
+ Quest Water Stone ganhou como premiação uma MysticWater.
+
+[Remakes]
+- Kanto recebeu uma remasterização completa. Desde iluminação, gráficos e sombreamento.
+- Interfaces gráficas passaram por reformulação e melhorias. ❤️ 
+- Novo Menu
+- Torre de batalha e interface.
+- Hunter J 
+- Um novo Gym de Cerulean baseado no Anime
+# Rota 8 - Rework
+Rota 8 ganhou um  GRANDE Remake, ela terá mais do que o dobro de tamanho, também irá abrigar novos Respawns como de Mankey e Primeape. 
+A região agora terá mais Berryes durante a viagem, aí vem um farm bem agradável.
+[Melhorias]
+- Efeitos naturais como chuva, neve, dentre outros sofreram um belo upgrade em visual.
+- Melhorado animações de interação com treinadores e Pokémons.
+- Criatório Bloqueado até que a missão do Tracey em Pallet seja feita, para evitar jogadores iniciantes acessarem tutoriais de breeding no início, onde há muitas informações introdutórias.
+- Viagem de barco não reproduzirá pegadas do personagem, de Pallet para Frodomar. 
+ Chance de Fuga dos Pokémon com trap foram reduzidas, buff ao trap em capturas. 
+- Adicionado Cientista com suporte ao Lt. Surge, uma dica útil será entregue a cada Líder de Ginásio. 
+- Adicionado novo encontro com Mankeys na Rota 1. Acessível através de QuickAttack! 
+- Nova Outfit Rocket para o personagem adicionado! 
+- Adicionado novo encontro de Butterfrees na Floresta de Viridiana.
+- Novo respawn de Drowzee na Rota 1 adicionado. Ao interagir com o mesmo, ele irá usar um hypnosis antes da batalha iniciar, tendo assim toda sua equipe em Sleep! (Horário específico para respawn).
+- Nova cena de VS antes das batalhas iniciarem fora adicionado.
+- Novas faces de personagens durante diálogo adicionadas! 
+- Ícone de missão para profissões adicionado!
+- As Pokébolas serão reproduzidas na máquina de cura, além disso o ícone de cada Pokémon no telão!
+- Nova transição virá para as batalhas contra os Rockets 
+- Fundo de batalha na Silph Corp adicionado.
+- Interação no Shop do Game não terá mais travamentos chatos. Além de ter sido movido para o Menu para maior visibilidade. Safezone removida com sucesso! 
+- Itens escondidos foram adicionados deste a Rota 5-9 ao leste de Kanto, Lavender e rotas próximas. Estes serão encontrados por ITEMFINDER ou na sorte ao interagir. Brevemente mais itens que não estarão escondidos.
+- Técnica CUT agora será fornecida por compatibilizade, não necessitando o Pokemon com moveset.
+[Otimização]
+- Estimado no mínimo metade do tamanho para o projeto. 
+de 700 mb para no mínimo 350mb. Atualmente estamos com 270mb
+- Otimizado número de arquivos do jogo, afim de melhorar a extração do Android.
+- Otimizada músicas do projeto.
+- Opção no Menu do projeto para ativar 30-40 ou 60 FPS.
+- Opção para ativar ou desativar animações em gramas.
+- Opção para ativar ou desativar animações do projeto em geral no menu de Opções.
+- Teremos apenas um executável até para quem não tem placa de video no PC.
+- Travamento ao carregar certos pokémons como Steelix foram corrigidos.
+
+[Joiplay]
+- Nova versão deste ano será disponibilizada.  ( Está fora da PlayStore )
+- Melhorias no FPS são previstas para maioria dos aparelhos. 
+- Um novo tutorial de configuração para o Joiplay será disponibilizado, assim como a descrição de cada um dos elementos de configurações dele.
+- Erros de textura e tela preta em alguns casos foram corrigidos definitivamente.
+Este é um resumo do resumo de tudo que está por vir, faltou alguns tópicos para abordar para vocês, mas no resumo, a v5.0 virá com estas novidades incríveis!
