@@ -1,0 +1,2 @@
+- Sistema Operacional 64 Bits
+- Placa de video Dedicada.

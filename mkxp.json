@@ -20,7 +20,6 @@
     //
     // "rgssVersion": 1,
 
-
     // Create a debug context and log
     // OpenGL debug information to the console
     // (default: disabled)
@@ -33,7 +32,7 @@
     // FPS display toggled via F2
     // (default: disabled)
     //
-    // "printFPS": false,
+    // "printFPS": true,
 
 
     // Game window is resizable
@@ -60,7 +59,7 @@
     // is upscaled
     // (default: disabled)
     //
-    // "smoothScaling": false,
+    // "smoothScaling": true,
 
 
     // Sync screen redraws to the monitor refresh rate
@@ -75,7 +74,7 @@
     // in RGSS2 or higher).
     // (default: 0)
     //
-    "defScreenW": 512,
+    // "defScreenW": 640,
 
 
     // Specify the window height on startup. If set to 0,
@@ -84,7 +83,7 @@
     // in RGSS2 or higher).
     // (default: 0)
     //
-    "defScreenH": 384,
+    // "defScreenH": 480,
 
 
     // Override the game window title
@@ -132,7 +131,7 @@
     // tileset doesn't render at all
     // (default: disabled)
     //
-    "subImageFix": true,
+    // "subImageFix": false,
 
 
     // Enable framebuffer blitting if the driver is
@@ -141,7 +140,7 @@
     // disabling it can be used as a workaround
     // (default: enabled)
     //
-    "enableBlitting": false,
+    // "enableBlitting": true,
 
 
     // Limit the maximum size (width, height) of
@@ -174,20 +173,6 @@
     // "enableReset": true,
 
 
-    // Names of the input buttons in the F1 key bindings
-    // window. This only affects the names displayed
-    // there, and won't enable those names as Input
-    // constants in the scripts.
-    "bindingNames": {"c": "Use",
-                     "b": "Back",
-                     "a": "Action",
-                     "x": "JumpUp",
-                     "y": "JumpDown",
-                     "z": "Special",
-                     "l": "(unused)",
-                     "r": "(unused)"},
-
-
     // Allow symlinks for game assets to be followed
     // (default: disabled)
     //
@@ -208,6 +193,7 @@
 
 
     // Set the game window icon to 'path/to/icon.png'
+    // Only functions on Linux.
     // (default: none)
     //
     // "iconPath": "/path/to/icon.png",
@@ -234,29 +220,6 @@
     // (default: enabled)
     //
     // "pathCache": true,
-
-    // In some versions of Essentials, overworld code
-    // requests the player's sprite texture from disk
-    // at least once every frame. The damage this
-    // causes is less perceptible in RPG Maker XP,
-    // but MKXP's RGSSAD code is much slower and will
-    // cause games to lag. Hard.
-    //
-    // I have no interest in fixing it, because:
-    //
-    // (A) I don't see any point in such frail encryption, and
-    // (B) One can easily replicate load_data entirely in Ruby
-    // (https://gist.github.com/inori-z/0800dbdc213b9936e0e81f64c9a98c4c)
-    //
-    // If you insist on using archives, you can use a
-    // version of Essentials that isn't broken,
-    // otherwise come up with your own solution
-    // (there are many), or leave your Graphics files
-    // loose and disable this option.
-    // (default: false)
-    //
-    // "compressedGraphics": false,
-
 
     // Add 'rtp1', 'rtp2.zip' and 'game.rgssad' to the
     // asset search path (multiple allowed)
@@ -305,20 +268,20 @@
     // (default: false)
     //
     // "JITEnable": false,
-
+    
     // Determines what level of verbosity to use when
     // logging JIT events. Starts at 0, which is next
     // to nothing. Set it higher to see more.
     // (default: 0)
     //
     // "JITVerboseLevel": 0,
-
+    
     // Determines how many compiled methods that Ruby
     // will keep in its cache.
     // (default: 100)
     //
     // "JITMaxCache": 100,
-
+    
     // Determines how many times a function has to be
     // called before it is compiled.
     // (default: 10000)
@@ -329,7 +292,7 @@
     // SoundFont to use for midi playback (via fluidsynth)
     // (default: none)
     //
-    "midiSoundFont": "soundfont.sf2",
+    // "midiSoundFont": "Audio/BGM/GMGSx.sf2",
 
 
     // Activate "chorus" effect for midi playback
@@ -361,5 +324,17 @@
     // is a tiny bit less intrusive.
     //
     // "execName": "Game"
+    
+    // You can define alternate terminology for the different
+    // inputs recognized by RPG Maker. A, B, C, X, Y, Z, L, and R
+    // can all be set using this dictionary, and will be displayed
+    // on the F1 menu. This is only a cosmetic effect, so it will
+    // have no effect on the game's scripts.
+    //
+    // "bindingNames": {
+    //  "c": "Confirm",
+    //  "b": "Cancel",
+    //  "x": ...
+    // }
 
 }
