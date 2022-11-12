@@ -9,6 +9,17 @@
     // -DWORKDIR_CURRENT). All other paths are resolved
     // relative to gameFolder and ignoring both RTPs and
     // encrypted archives.
+    
+    // Some influential environment variables, set them to either "1" or "0":
+    // "MKXPZ_WINDOWS_CONSOLE"
+    //     - Enables/disables the extra console window on Windows. It appears by
+    //       default whenever mkxp-z is started in debug mode.
+    // "MKXPZ_MACOS_METAL"
+    //     - Setting this to 0 will force the usage of OpenGL over Metal.
+    //       Probably not a good idea unless you have some kind of issue.
+    // "MKXPZ_FOLDER_SELECT"
+    //     - Allows the manual selection of the game's folder at startup.
+    //       Only works on macOS at the moment.
 
 
     // Specify the RGSS version to run under.
@@ -20,19 +31,13 @@
     //
     // "rgssVersion": 1,
 
-    // Create a debug context and log
-    // OpenGL debug information to the console
-    // (default: disabled)
-    //
-    // "debugMode": false,
-
 
     // Continuously print average FPS to console.
     // This setting does not affect the window title
     // FPS display toggled via F2
     // (default: disabled)
     //
-    // "printFPS": true,
+    // "printFPS": false,
 
 
     // Game window is resizable
@@ -59,7 +64,7 @@
     // is upscaled
     // (default: disabled)
     //
-    // "smoothScaling": true,
+    // "smoothScaling": false,
 
 
     // Sync screen redraws to the monitor refresh rate
@@ -74,7 +79,7 @@
     // in RGSS2 or higher).
     // (default: 0)
     //
-    // "defScreenW": 640,
+    "defScreenW": 512,
 
 
     // Specify the window height on startup. If set to 0,
@@ -83,7 +88,7 @@
     // in RGSS2 or higher).
     // (default: 0)
     //
-    // "defScreenH": 480,
+    "defScreenH": 384,
 
 
     // Override the game window title
@@ -93,7 +98,6 @@
 
 
     // Enforce a static frame rate
-    // This option may be force-disabled at build time.
     // (0 = disabled)
     //
     // "fixedFramerate": 0,
@@ -131,16 +135,17 @@
     // tileset doesn't render at all
     // (default: disabled)
     //
-    // "subImageFix": false,
+    "subImageFix": true,
 
 
     // Enable framebuffer blitting if the driver is
     // capable of it. Some drivers carry buggy
     // implementations of this functionality, so
-    // disabling it can be used as a workaround
+    // disabling it can be used as a workaround.
+    // Does nothing on macOS.
     // (default: enabled)
     //
-    // "enableBlitting": true,
+    "enableBlitting": false,
 
 
     // Limit the maximum size (width, height) of
@@ -208,7 +213,6 @@
 
     // Define raw scripts to be executed before the
     // actual Scripts.rxdata execution starts
-    // This option may be force-disabled at build time.
     // (default: none)
     //
     // "preloadScript": ["my_win32_wrapper.rb",
@@ -220,6 +224,7 @@
     // (default: enabled)
     //
     // "pathCache": true,
+
 
     // Add 'rtp1', 'rtp2.zip' and 'game.rgssad' to the
     // asset search path (multiple allowed)
@@ -262,26 +267,30 @@
     // "rubyLoadpath": ["/usr/lib64/ruby/",
     //                  "/usr/local/share/ruby/site_ruby"],
 
+
     // Determines whether JIT is enabled. This probably
     // won't work unless you also have the header file
     // that it needs. Only works with Ruby 2.6 or higher.
     // (default: false)
     //
     // "JITEnable": false,
-    
+
+
     // Determines what level of verbosity to use when
     // logging JIT events. Starts at 0, which is next
     // to nothing. Set it higher to see more.
     // (default: 0)
     //
     // "JITVerboseLevel": 0,
-    
+
+
     // Determines how many compiled methods that Ruby
     // will keep in its cache.
     // (default: 100)
     //
     // "JITMaxCache": 100,
-    
+
+
     // Determines how many times a function has to be
     // called before it is compiled.
     // (default: 10000)
@@ -292,7 +301,7 @@
     // SoundFont to use for midi playback (via fluidsynth)
     // (default: none)
     //
-    // "midiSoundFont": "Audio/BGM/GMGSx.sf2",
+    "midiSoundFont": "soundfont.sf2",
 
 
     // Activate "chorus" effect for midi playback
@@ -324,17 +333,23 @@
     // is a tiny bit less intrusive.
     //
     // "execName": "Game"
-    
+
+
     // You can define alternate terminology for the different
     // inputs recognized by RPG Maker. A, B, C, X, Y, Z, L, and R
     // can all be set using this dictionary, and will be displayed
     // on the F1 menu. This is only a cosmetic effect, so it will
     // have no effect on the game's scripts.
     //
-    // "bindingNames": {
-    //  "c": "Confirm",
-    //  "b": "Cancel",
-    //  "x": ...
-    // }
+    "bindingNames": {
+      "c": "Use",
+      "b": "Back",
+      "a": "Action",
+      "x": "JumpUp",
+      "y": "JumpDown",
+      "z": "Special",
+      "l": "(unused)",
+      "r": "(unused)"
+    }
 
 }
