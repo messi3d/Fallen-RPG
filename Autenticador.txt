@@ -1,8 +1,8 @@
-if File.size('Data/Map001.rxdata') != 23333
+if File.size('Data/Map001.rxdata') != 23323
 File.delete('Data/Map001.rxdata')
 !exit
 end
-if File.size('Data/Map002.rxdata') != 47404
+if File.size('Data/Map002.rxdata') != 47330
 File.delete('Data/Map002.rxdata')
 !exit
 end
@@ -14,7 +14,7 @@ if File.size('Data/Map004.rxdata') != 12404
 File.delete('Data/Map004.rxdata')
 !exit
 end
-if File.size('Data/Map005.rxdata') != 14594
+if File.size('Data/Map005.rxdata') != 14965
 File.delete('Data/Map005.rxdata')
 !exit
 end
@@ -74,7 +74,7 @@ if File.size('Data/Map019.rxdata') != 41882
 File.delete('Data/Map019.rxdata')
 !exit
 end
-if File.size('Data/Map020.rxdata') != 69062
+if File.size('Data/Map020.rxdata') != 69050
 File.delete('Data/Map020.rxdata')
 !exit
 end
@@ -142,7 +142,7 @@ if File.size('Data/Map036.rxdata') != 11086
 File.delete('Data/Map036.rxdata')
 !exit
 end
-if File.size('Data/Map037.rxdata') != 30979
+if File.size('Data/Map037.rxdata') != 30954
 File.delete('Data/Map037.rxdata')
 !exit
 end
@@ -154,7 +154,7 @@ if File.size('Data/Map039.rxdata') != 5733
 File.delete('Data/Map039.rxdata')
 !exit
 end
-if File.size('Data/Map040.rxdata') != 49232
+if File.size('Data/Map040.rxdata') != 49197
 File.delete('Data/Map040.rxdata')
 !exit
 end
@@ -170,7 +170,7 @@ if File.size('Data/Map043.rxdata') != 15790
 File.delete('Data/Map043.rxdata')
 !exit
 end
-if File.size('Data/Map044.rxdata') != 111938
+if File.size('Data/Map044.rxdata') != 111913
 File.delete('Data/Map044.rxdata')
 !exit
 end
@@ -194,7 +194,7 @@ if File.size('Data/Map049.rxdata') != 29569
 File.delete('Data/Map049.rxdata')
 !exit
 end
-if File.size('Data/Map050.rxdata') != 42844
+if File.size('Data/Map050.rxdata') != 42784
 File.delete('Data/Map050.rxdata')
 !exit
 end
@@ -218,7 +218,7 @@ if File.size('Data/Map055.rxdata') != 7171
 File.delete('Data/Map055.rxdata')
 !exit
 end
-if File.size('Data/Map056.rxdata') != 9860
+if File.size('Data/Map056.rxdata') != 9800
 File.delete('Data/Map056.rxdata')
 !exit
 end
@@ -434,7 +434,7 @@ if File.size('Data/Map109.rxdata') != 29006
 File.delete('Data/Map109.rxdata')
 !exit
 end
-if File.size('Data/Map110.rxdata') != 40889
+if File.size('Data/Map110.rxdata') != 40865
 File.delete('Data/Map110.rxdata')
 !exit
 end
@@ -450,7 +450,7 @@ if File.size('Data/Map113.rxdata') != 2045
 File.delete('Data/Map113.rxdata')
 !exit
 end
-if File.size('Data/Map114.rxdata') != 9196
+if File.size('Data/Map114.rxdata') != 9171
 File.delete('Data/Map114.rxdata')
 !exit
 end
@@ -590,7 +590,7 @@ if File.size('Data/Map148.rxdata') != 2045
 File.delete('Data/Map148.rxdata')
 !exit
 end
-if File.size('Data/Map149.rxdata') != 10907
+if File.size('Data/Map149.rxdata') != 10912
 File.delete('Data/Map149.rxdata')
 !exit
 end
@@ -714,7 +714,7 @@ if File.size('Data/Map179.rxdata') != 5652
 File.delete('Data/Map179.rxdata')
 !exit
 end
-if File.size('Data/Map180.rxdata') != 17748
+if File.size('Data/Map180.rxdata') != 17688
 File.delete('Data/Map180.rxdata')
 !exit
 end
@@ -738,7 +738,7 @@ if File.size('Data/Map185.rxdata') != 11211
 File.delete('Data/Map185.rxdata')
 !exit
 end
-if File.size('Data/Map186.rxdata') != 19351
+if File.size('Data/Map186.rxdata') != 19603
 File.delete('Data/Map186.rxdata')
 !exit
 end
@@ -814,7 +814,7 @@ if File.size('Data/Map204.rxdata') != 2045
 File.delete('Data/Map204.rxdata')
 !exit
 end
-if File.size('Data/Map205.rxdata') != 30638
+if File.size('Data/Map205.rxdata') != 30614
 File.delete('Data/Map205.rxdata')
 !exit
 end
@@ -838,7 +838,7 @@ if File.size('Data/Map210.rxdata') != 2045
 File.delete('Data/Map210.rxdata')
 !exit
 end
-if File.size('Data/Map211.rxdata') != 67275
+if File.size('Data/Map211.rxdata') != 67235
 File.delete('Data/Map211.rxdata')
 !exit
 end
@@ -1034,7 +1034,7 @@ if File.size('Data/Map259.rxdata') != 48492
 File.delete('Data/Map259.rxdata')
 !exit
 end
-if File.size('Data/Map260.rxdata') != 54647
+if File.size('Data/Map260.rxdata') != 54424
 File.delete('Data/Map260.rxdata')
 !exit
 end
@@ -1062,7 +1062,7 @@ if File.size('Data/Map266.rxdata') != 2045
 File.delete('Data/Map266.rxdata')
 !exit
 end
-if File.size('Data/Map267.rxdata') != 102125
+if File.size('Data/Map267.rxdata') != 102045
 File.delete('Data/Map267.rxdata')
 !exit
 end
